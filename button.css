@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    background-color: rgb(118, 118, 118);
+}
+.grandfather {
+    background-color: rgb(155, 152, 152);
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 3px 3px rgb(75, 73, 73);
+
+}
+.dad {
+    background-color: rgb(190, 190, 192);
+    width: 200px;
+    height: 200px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 3px 3px rgb(85, 80, 80);
+}
+.but3 {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    position: relative;
+    right: 40px;
+    top: 74px;
+}
+.but4 {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+.num {
+    font-size: 25px;
+}
+.but1 {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    position: relative;
+    bottom: 5px;
+}
+.but2 {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    position: relative;
+    left: 40px;
+    bottom: 74px;
+}
